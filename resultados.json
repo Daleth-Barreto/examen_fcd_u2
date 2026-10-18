@@ -1,0 +1,90 @@
+{
+  "n_depurado": 483,
+  "medias": {
+    "Microservicios": 124.6144,
+    "Monolito": 123.1996
+  },
+  "tabla_descriptiva": [
+    {
+      "media": 124.614,
+      "mediana": 113.969,
+      "desv_estandar": 48.204,
+      "varianza": 2323.634,
+      "asimetria": 0.77,
+      "curtosis": -0.094
+    },
+    {
+      "media": 123.2,
+      "mediana": 117.012,
+      "desv_estandar": 43.529,
+      "varianza": 1894.787,
+      "asimetria": 0.616,
+      "curtosis": -0.159
+    }
+  ],
+  "tabla_error_estandar": [
+    {
+      "n": 5,
+      "media_de_medias": 123.9183,
+      "se_empirico": 19.8863,
+      "se_teorico": 20.5264,
+      "diferencia_pct": 3.1183
+    },
+    {
+      "n": 15,
+      "media_de_medias": 123.6154,
+      "se_empirico": 11.932,
+      "se_teorico": 11.8509,
+      "diferencia_pct": 0.6837
+    },
+    {
+      "n": 30,
+      "media_de_medias": 123.6579,
+      "se_empirico": 8.2357,
+      "se_teorico": 8.3799,
+      "diferencia_pct": 1.7209
+    },
+    {
+      "n": 60,
+      "media_de_medias": 123.8824,
+      "se_empirico": 5.8596,
+      "se_teorico": 5.9255,
+      "diferencia_pct": 1.112
+    }
+  ],
+  "tabla_ic_general": [
+    {
+      "confianza": "90%",
+      "limite_inferior": 120.47,
+      "limite_superior": 127.353,
+      "t_critico": 1.648
+    },
+    {
+      "confianza": "95%",
+      "limite_inferior": 119.808,
+      "limite_superior": 128.015,
+      "t_critico": 1.965
+    },
+    {
+      "confianza": "99%",
+      "limite_inferior": 118.511,
+      "limite_superior": 129.312,
+      "t_critico": 2.586
+    }
+  ],
+  "levene": {
+    "estadistico": 1.8419,
+    "p_valor": 0.1754
+  },
+  "ic_diferencia_95": [
+    -9.6297,
+    6.8002
+  ],
+  "grados_libertad": 481.0,
+  "cero_en_ic": true,
+  "ttest": {
+    "t": -0.3384,
+    "p_valor": 0.7352
+  },
+  "veredicto": "No rechazar H0"
+}
